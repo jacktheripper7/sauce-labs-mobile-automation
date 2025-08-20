@@ -22,6 +22,7 @@ public class BaseTest {
     private static ThreadLocal<ActionDriver> actionDriverThreadLocal = new ThreadLocal<>();
     public static final Logger logger = LoggerManager.logger(BaseTest.class);
 
+
     @BeforeSuite
     public void loadConfig() throws IOException {
         properties = new Properties();
@@ -35,50 +36,31 @@ public class BaseTest {
         logger.info("Setting up AppiumDriver for: {}", this.getClass().getSimpleName());
 
         boolean runOnEmulator = Boolean.parseBoolean(properties.getProperty("runOnEmulator", "true"));
-        boolean runOnBrowserStack = Boolean.parseBoolean(properties.getProperty("runOnBrowserStack", "false"));
+        String deviceName = runOnEmulator ? properties.getProperty("emulator.deviceName") : properties.getProperty("real.deviceName");
+        String platformVersion = runOnEmulator ? properties.getProperty("emulator.platformVersion") : properties.getProperty("real.platformVersion");
+        String udid = runOnEmulator ? properties.getProperty("emulator.udid") : properties.getProperty("real.udid");
+
+        String appPath = properties.getProperty("app.path");
+        String appiumServerURL = properties.getProperty("appium.serverURL");
 
         UiAutomator2Options options = new UiAutomator2Options();
-        AppiumDriver driver;
+        options.setDeviceName(deviceName)
+                .setPlatformVersion(platformVersion)
+                .setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2)
+                .setApp(System.getProperty("user.dir") + "/" + appPath);
 
-        if (runOnBrowserStack) {
-            // BrowserStack setup
-            options.setPlatformName("Android");
-            options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
-            options.setCapability("device", properties.getProperty("browserstack.device"));
-            options.setCapability("os_version", properties.getProperty("browserstack.os_version"));
-            options.setCapability("app", properties.getProperty("browserstack.app"));
-            options.setCapability("project", "SwagLabs Mobile Automation");
-            options.setCapability("build", "GitHub Actions CI");
-            options.setCapability("name", method.getName());
-            options.setCapability("autoGrantPermissions", true);
+        options.setAppPackage("com.swaglabsmobileapp");
+        options.setAppActivity("com.swaglabsmobileapp.SplashActivity");
 
-            driver = new AppiumDriver(new URL("https://"
-                    + properties.getProperty("browserstack.username") + ":"
-                    + properties.getProperty("browserstack.accessKey")
-                    + "@hub.browserstack.com/wd/hub"), options);
+        options.setAutoGrantPermissions(true);
+        options.setNewCommandTimeout(Duration.ofSeconds(3600));
 
-        } else {
-            // Local Emulator or Real Device setup
-            String deviceName = runOnEmulator ? properties.getProperty("emulator.deviceName") : properties.getProperty("real.deviceName");
-            String platformVersion = runOnEmulator ? properties.getProperty("emulator.platformVersion") : properties.getProperty("real.platformVersion");
-            String udid = runOnEmulator ? properties.getProperty("emulator.udid") : properties.getProperty("real.udid");
-            String appPath = properties.getProperty("app.path");
-            String appiumServerURL = properties.getProperty("appium.serverURL");
+        if (!udid.isEmpty()) options.setUdid(udid);
 
-            options.setDeviceName(deviceName);
-            options.setPlatformVersion(platformVersion);
-            options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
-            options.setApp(System.getProperty("user.dir") + "/" + appPath);
-            options.setAppPackage("com.swaglabsmobileapp");
-            options.setAppActivity("com.swaglabsmobileapp.SplashActivity");
-            options.setAutoGrantPermissions(true);
-            options.setNewCommandTimeout(Duration.ofSeconds(3600));
-            if (!udid.isEmpty()) options.setUdid(udid);
-
-            driver = new AppiumDriver(new URL(appiumServerURL), options);
-        }
-
+        AppiumDriver driver = new AppiumDriver(new URL(appiumServerURL), options);
         driverThreadLocal.set(driver);
+
+        // Initialize ActionDriver
         actionDriverThreadLocal.set(new ActionDriver(driver));
         logger.info("ActionDriver initialized for thread: " + Thread.currentThread().getId());
     }

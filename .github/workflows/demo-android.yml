@@ -1,0 +1,28 @@
+name: Run Android tests on github runner
+on: push
+jobs:
+  run-mobile-tests:
+    runs-on: macos-latest
+
+    steps:
+      - name: Pull latest code
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Setup Appium
+        run: |
+          npm install -g appium
+          appium -v
+          nohup appium > appium.log 2>&1 &
+          sleep 5
+
+      - name: Run Android tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          script: mvn clean test

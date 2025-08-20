@@ -380,3 +380,52 @@
 2025-08-20 18:49:42 [main] INFO  LoginPageTest - Validating redirection to product catalog
 2025-08-20 18:49:43 [main] INFO  ProductPage - Product page title displayed: true
 2025-08-20 18:49:44 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 19:17:25 [main] INFO  BaseTest - Config file loaded
+2025-08-20 19:17:25 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 19:17:34 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:34 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 19:17:34 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:34 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:34 [main] INFO  LoginPageTest - Performing login with invalid credentials
+2025-08-20 19:17:39 [main] INFO  LoginPageTest - Validating error message
+2025-08-20 19:17:40 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 19:17:40 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 19:17:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:46 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 19:17:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:46 [main] INFO  LoginPageTest - Performing login
+2025-08-20 19:17:51 [main] INFO  LoginPageTest - Validating redirection to product catalog
+2025-08-20 19:17:52 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 19:17:53 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 19:17:53 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 19:17:58 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:58 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 19:17:58 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:17:58 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:05 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 19:18:05 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 19:18:05 [main] INFO  ProductPage - Selecting product: Sauce Labs Backpack
+2025-08-20 19:18:07 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 19:18:07 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 19:18:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:13 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 19:18:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:19 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 19:18:19 [main] INFO  ProductPage - Product catalog displayed: true
+2025-08-20 19:18:21 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Onesie, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red)]
+2025-08-20 19:18:21 [main] INFO  ProductPageTest - Sorted visible products: [Sauce Labs Onesie, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red)]
+2025-08-20 19:18:21 [main] INFO  ProductPageTest - First product price: $7.99
+2025-08-20 19:18:22 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 19:18:22 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 19:18:28 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:28 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 19:18:28 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:28 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 19:18:34 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 19:18:34 [main] INFO  ProductPage - Product catalog displayed: true
+2025-08-20 19:18:34 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 19:18:34 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 19:18:34 [main] INFO  ProductPageTest - Products loaded: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 19:18:35 [main] INFO  BaseTest - AppiumDriver quit successfully
