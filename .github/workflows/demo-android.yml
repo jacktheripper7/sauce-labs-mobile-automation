@@ -27,9 +27,12 @@ jobs:
           api-level: 29
           arch: arm64-v8a
           target: google_apis
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -accel off
           script: |
             echo "Waiting for emulator to boot..."
             adb wait-for-device
+            adb shell getprop sys.boot_completed
             # Wait additional time to ensure fully booted
             sleep 30
             # Start Appium in the background
