@@ -22,7 +22,6 @@ public class BaseTest {
     private static ThreadLocal<ActionDriver> actionDriverThreadLocal = new ThreadLocal<>();
     public static final Logger logger = LoggerManager.logger(BaseTest.class);
 
-
     @BeforeSuite
     public void loadConfig() throws IOException {
         properties = new Properties();
@@ -35,25 +34,36 @@ public class BaseTest {
     public synchronized void setUp(Method method) throws Exception {
         logger.info("Setting up AppiumDriver for: {}", this.getClass().getSimpleName());
 
+        boolean isGithubRunner = System.getenv("GITHUB_ACTIONS") != null; // detects if running on GitHub
         boolean runOnEmulator = Boolean.parseBoolean(properties.getProperty("runOnEmulator", "true"));
-        String deviceName = runOnEmulator ? properties.getProperty("emulator.deviceName") : properties.getProperty("real.deviceName");
-        String platformVersion = runOnEmulator ? properties.getProperty("emulator.platformVersion") : properties.getProperty("real.platformVersion");
-        String udid = runOnEmulator ? properties.getProperty("emulator.udid") : properties.getProperty("real.udid");
+
+        String deviceName;
+        String platformVersion;
+        String udid;
+
+        if (isGithubRunner) {
+            // GitHub runner manages the emulator; no need for udid/deviceName from properties
+            deviceName = "Android Emulator";
+            platformVersion = "11"; // you can set the API level your workflow uses
+            udid = "";
+        } else {
+            deviceName = runOnEmulator ? properties.getProperty("emulator.deviceName") : properties.getProperty("real.deviceName");
+            platformVersion = runOnEmulator ? properties.getProperty("emulator.platformVersion") : properties.getProperty("real.platformVersion");
+            udid = runOnEmulator ? properties.getProperty("emulator.udid") : properties.getProperty("real.udid");
+        }
 
         String appPath = properties.getProperty("app.path");
         String appiumServerURL = properties.getProperty("appium.serverURL");
 
-        UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName(deviceName)
+        UiAutomator2Options options = new UiAutomator2Options()
+                .setDeviceName(deviceName)
                 .setPlatformVersion(platformVersion)
                 .setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2)
-                .setApp(System.getProperty("user.dir") + "/" + appPath);
-
-        options.setAppPackage("com.swaglabsmobileapp");
-        options.setAppActivity("com.swaglabsmobileapp.SplashActivity");
-
-        options.setAutoGrantPermissions(true);
-        options.setNewCommandTimeout(Duration.ofSeconds(3600));
+                .setApp(System.getProperty("user.dir") + "/" + appPath)
+                .setAppPackage("com.swaglabsmobileapp")
+                .setAppActivity("com.swaglabsmobileapp.SplashActivity")
+                .setAutoGrantPermissions(true)
+                .setNewCommandTimeout(Duration.ofSeconds(3600));
 
         if (!udid.isEmpty()) options.setUdid(udid);
 
