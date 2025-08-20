@@ -1,1 +1,0 @@
-{"uuid":"98cde61f-5bdb-4752-9388-b7427138b233","name":"SwagLabs Suite","children":["e6e18758-2a90-4905-80e5-43eb22c2106e"],"befores":[{"name":"loadConfig","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1755694722220,"stop":1755694722228}],"afters":[],"start":1755694722207,"stop":1755694749046}
