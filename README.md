@@ -80,8 +80,6 @@ A robust, scalable automation project for the **Sauce Labs Swag Android App** (E
   - **Build/Dependency:** Maven
   - **CI/CD:** GitHub Actions
   - **Utilities:** Appium Inspector, UIAutomatorViewer
-  - **Reporting:** Allure Reports
-  - **Others:** Screenshots on failure, logs
 
 -----
 
@@ -137,21 +135,22 @@ Tests automatically run on every push via **GitHub Actions**.
 
 ### 📝 Assumptions & Limitations
 
-  - **App Stability:** The app under test is assumed to be stable and consistent (as it is a Sauce Labs demo app).
+  - **App Stability:** The app under test is assumed to be stable and consistent (as it is a Sauce Labs demo app), but has some known issues.
   - **Negative Flows:** Negative scenarios like network errors are simulated by toggling the network state.
   - **iOS Support:** iOS support can be added in a similar branch.
-  - **API Validation:** This is limited to frameworks that support network interception.
+  - **API Validation:** Interception and validation of login or checkout API requests/responses can be added in a separate branch. Once we figure out how to do this, we can add it to the pipeline.
+
 
 ### 💡 Edge Case Coverage
 
   - Invalid logins, missing fields, empty cart, rapid user actions, network loss, etc., are all covered.
-  - **Known Bug:** An order can be completed without adding items to the cart.
+  - **Known Bug:** An order can be completed without adding items to the cart. (Scenario Test Case: `CartCheckoutTests.testCheckoutWithEmptyCart()`)
   - **CI Flakiness:** The `selectSpecificProduct` test may fail in the CI workflow but passes locally. This is a known issue.
 
 ### 🔧 Possible Improvements
 
   - Add more stable waits or retry logic to address CI workflow flakiness.
-  - Enhance negative flow coverage (e.g., empty cart, API failures).
+  - Enhance negative flow coverage
   - Implement screenshot/video capture on test failures for better debugging.
   - Improve CI environment configuration for emulator stability.
   - Expand API validations and network simulation.
@@ -175,4 +174,4 @@ The project will continue to be updated with these improvements.
   - **GitHub:** [github.com/jacktheripper7](https://www.google.com/search?q=https://github.com/jacktheripper7)
 
 **Goal:** To demonstrate real-world mobile automation, robust element handling, and a maintainable test design.
-**Coverage:** ✔️ All key flows are automated and validated, with CI and reporting in place.
+**Coverage:** ✔️ All key flows are automated and validated, with CI with GitHub Actions.
