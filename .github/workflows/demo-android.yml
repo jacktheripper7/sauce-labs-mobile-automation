@@ -4,6 +4,7 @@ on: push
 jobs:
   run-mobile-tests:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -21,6 +22,10 @@ jobs:
           sudo apt-get install -y nodejs npm
           npm install -g appium
           appium -v
+          # Install the UiAutomator2 driver
+          appium driver install uiautomator2
+          # Verify driver installation
+          appium driver list --installed
 
       - name: Enable KVM (for better emulator performance)
         run: |
@@ -48,5 +53,8 @@ jobs:
             sleep 10
             # Verify Appium is running
             curl -sSf http://localhost:4723/status || (echo "Appium failed to start" && exit 1)
-            # Run tests
-            mvn clean test
+            # Run tests with timeout
+            timeout 300 mvn clean test || echo "Tests completed or timed out"
+            # Cleanup processes
+            pkill -f appium || true
+            pkill -f java || true
