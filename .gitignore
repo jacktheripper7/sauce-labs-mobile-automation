@@ -36,5 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/allure-results/
-/.idea/
+
+
+logs/
+.idea/
+.mvn
+allure-results/

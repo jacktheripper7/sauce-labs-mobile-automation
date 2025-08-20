@@ -5,6 +5,8 @@
         <classes>
             <class name="org.swaglabs.tests.LoginPageTest"/>
             <class name="org.swaglabs.tests.ProductPageTest"/>
+            <class name="org.swaglabs.tests.LogoutTests"/>
+            <class name="org.swaglabs.tests.CartCheckoutTests"/>
         </classes>
     </test>
 
