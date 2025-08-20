@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SwagLabs Suite" parallel="false">
+
+    <test name="Appium Tests">
+        <classes>
+            <class name="org.swaglabs.tests.LoginPageTest"/>
+            <class name="org.swaglabs.tests.ProductPageTest"/>
+        </classes>
+    </test>
+
+</suite>

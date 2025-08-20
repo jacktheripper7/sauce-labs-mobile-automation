@@ -1,0 +1,338 @@
+2025-08-20 05:18:43 [main] INFO  BaseTest - Config file loaded
+2025-08-20 05:18:43 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 05:18:47 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:18:47 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 05:18:47 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:18:47 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:18:47 [main] INFO  LoginPageTest - Performing login with invalid credentials
+2025-08-20 05:18:52 [main] INFO  LoginPageTest - Validating error message
+2025-08-20 05:18:53 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 05:19:03 [main] INFO  BaseTest - Config file loaded
+2025-08-20 05:19:03 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 05:19:07 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:07 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 05:19:07 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:07 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:07 [main] INFO  LoginPageTest - Performing login with invalid credentials
+2025-08-20 05:19:12 [main] INFO  LoginPageTest - Validating error message
+2025-08-20 05:19:13 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 05:19:13 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 05:19:17 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:17 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 05:19:17 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:17 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 05:19:17 [main] INFO  LoginPageTest - Performing login
+2025-08-20 05:19:21 [main] INFO  LoginPageTest - Validating redirection to product catalog
+2025-08-20 05:19:22 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 05:19:23 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 14:05:35 [main] INFO  BaseTest - Config file loaded
+2025-08-20 14:05:35 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 14:05:35 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 14:13:36 [main] INFO  BaseTest - Config file loaded
+2025-08-20 14:13:36 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 14:13:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:42 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 14:13:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:42 [main] INFO  LoginPageTest - Performing login with invalid credentials
+2025-08-20 14:13:47 [main] INFO  LoginPageTest - Validating error message
+2025-08-20 14:13:48 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 14:13:48 [main] INFO  BaseTest - Setting up AppiumDriver for: LoginPageTest
+2025-08-20 14:13:53 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:53 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 14:13:53 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:53 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:13:53 [main] INFO  LoginPageTest - Performing login
+2025-08-20 14:13:58 [main] INFO  LoginPageTest - Validating redirection to product catalog
+2025-08-20 14:13:59 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 14:13:59 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 14:13:59 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 14:14:04 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:04 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 14:14:04 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:04 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:09 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 14:14:10 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 14:14:10 [main] INFO  ProductPage - Selecting product: Sauce Labs Backpack
+2025-08-20 14:14:11 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 14:14:11 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 14:14:15 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:15 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 14:14:15 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:15 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:20 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 14:14:20 [main] INFO  ProductPage - Product catalog displayed: true
+2025-08-20 14:14:22 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Onesie, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red)]
+2025-08-20 14:14:22 [main] INFO  ProductPageTest - Sorted visible products: [Sauce Labs Onesie, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Test.allTheThings() T-Shirt (Red)]
+2025-08-20 14:14:22 [main] INFO  ProductPageTest - First product price: $7.99
+2025-08-20 14:14:23 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 14:14:23 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 14:14:26 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:26 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 14:14:26 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:26 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 14:14:32 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 14:14:32 [main] INFO  ProductPage - Product catalog displayed: true
+2025-08-20 14:14:32 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 14:14:32 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 14:14:32 [main] INFO  ProductPageTest - Products loaded: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 14:14:33 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 15:15:39 [main] INFO  BaseTest - Config file loaded
+2025-08-20 15:15:39 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 15:15:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 15:15:46 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 15:15:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 15:15:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 15:15:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 15:15:46 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 15:15:46 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 15:15:50 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 15:15:50 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 15:15:50 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 15:15:52 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 15:15:52 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 15:15:53 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 15:15:53 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 15:15:53 [main] INFO  ProductPage - Opening cart page
+2025-08-20 15:15:55 [main] INFO  CartCheckoutTests - Cart contains: []
+2025-08-20 15:15:55 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 16:21:29 [main] INFO  BaseTest - Config file loaded
+2025-08-20 16:21:29 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 16:21:36 [main] INFO  BaseTest - Config file loaded
+2025-08-20 16:21:36 [main] INFO  BaseTest - Setting up AppiumDriver for: ProductPageTest
+2025-08-20 16:21:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:21:42 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 16:21:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:21:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:21:48 [main] INFO  ProductPage - Product page title displayed: true
+2025-08-20 16:21:48 [main] INFO  ProductPage - Product catalog displayed: true
+2025-08-20 16:21:48 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 16:21:48 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 16:21:48 [main] INFO  ProductPageTest - Products loaded: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 16:21:49 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 16:22:07 [main] INFO  BaseTest - Config file loaded
+2025-08-20 16:22:08 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 16:22:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:22:13 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 16:22:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:22:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:22:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:22:13 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:22:13 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 16:22:17 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 16:22:18 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 16:22:18 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 16:22:19 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 16:22:20 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 16:22:20 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 16:22:23 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 16:22:27 [main] INFO  ProductPage - Opening cart page
+2025-08-20 16:22:39 [main] INFO  CartCheckoutTests - Cart contains: [Sauce Labs Backpack, Sauce Labs Bike Light]
+2025-08-20 16:22:50 [main] INFO  CartPage - Cart contains 2 items
+2025-08-20 16:22:55 [main] INFO  CartPage - More than 2 products in cart, scrolling to checkout button...
+2025-08-20 16:23:35 [main] INFO  CartPage - Clicked on Checkout button
+2025-08-20 16:24:29 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 16:48:15 [main] INFO  BaseTest - Config file loaded
+2025-08-20 16:48:15 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 16:48:21 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 16:48:26 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 16:48:26 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 16:48:26 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 16:48:28 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 16:48:28 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 16:48:29 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 16:48:29 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 16:48:29 [main] INFO  ProductPage - Opening cart page
+2025-08-20 16:48:31 [main] INFO  CartCheckoutTests - Cart contains: [Sauce Labs Backpack, Sauce Labs Bike Light]
+2025-08-20 16:48:37 [main] INFO  CartPage - Cart contains 2 items
+2025-08-20 16:48:37 [main] INFO  CartPage - More than 2 products in cart, scrolling to checkout button...
+2025-08-20 16:48:40 [main] INFO  CartPage - Clicked on Checkout button
+2025-08-20 16:49:39 [main] INFO  CheckoutOverviewPage - Verified totals: ItemTotal=39.98, Tax=3.2, Total=43.18
+2025-08-20 16:49:51 [main] INFO  CartCheckoutTests - Asserting totals in test
+2025-08-20 16:50:10 [main] INFO  CartCheckoutTests - Order placed successfully
+2025-08-20 16:50:14 [main] INFO  ProductPage - Opening cart page
+2025-08-20 16:50:56 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:11:21 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:11:21 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:11:27 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:11:32 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:11:32 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 17:11:32 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:11:33 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 17:11:34 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 17:11:35 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 17:11:35 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 17:11:35 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:11:36 [main] INFO  CartCheckoutTests - Cart contains: [Sauce Labs Backpack, Sauce Labs Bike Light]
+2025-08-20 17:11:36 [main] INFO  CartPage - Cart contains 2 items
+2025-08-20 17:11:36 [main] INFO  CartPage - More than 2 products in cart, scrolling to checkout button...
+2025-08-20 17:11:39 [main] INFO  CartPage - Clicked on Checkout button
+2025-08-20 17:11:49 [main] INFO  CheckoutOverviewPage - Verified totals: ItemTotal=39.98, Tax=3.2, Total=43.18
+2025-08-20 17:11:49 [main] INFO  CartCheckoutTests - Asserting totals in test
+2025-08-20 17:11:50 [main] INFO  CartCheckoutTests - Order placed successfully
+2025-08-20 17:11:50 [main] INFO  CartCheckoutTests - Navigated back to product catalog
+2025-08-20 17:11:50 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:12:22 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:14:05 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:14:05 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:14:11 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:14:16 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:14:16 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 17:14:16 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:14:17 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 17:14:18 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 17:14:19 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 17:14:19 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 17:14:19 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:14:20 [main] INFO  CartCheckoutTests - Cart contains: [Sauce Labs Backpack, Sauce Labs Bike Light]
+2025-08-20 17:14:20 [main] INFO  CartPage - Cart contains 2 items
+2025-08-20 17:14:20 [main] INFO  CartPage - More than 2 products in cart, scrolling to checkout button...
+2025-08-20 17:14:22 [main] INFO  CartPage - Clicked on Checkout button
+2025-08-20 17:14:32 [main] INFO  CheckoutOverviewPage - Verified totals: ItemTotal=39.98, Tax=3.2, Total=43.18
+2025-08-20 17:14:32 [main] INFO  CartCheckoutTests - Asserting totals in test
+2025-08-20 17:14:33 [main] INFO  CartCheckoutTests - Order placed successfully
+2025-08-20 17:14:33 [main] INFO  CartCheckoutTests - Navigated back to product catalog
+2025-08-20 17:14:33 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:15:04 [main] WARN  CartPage - No cart items found, returning 0
+2025-08-20 17:15:04 [main] INFO  CartCheckoutTests - Cart validated empty after successful order
+2025-08-20 17:15:05 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:15:56 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:15:56 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:16:02 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:16:06 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:16:06 [main] INFO  CartCheckoutTests - Starting positive cart & checkout test
+2025-08-20 17:16:06 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:16:08 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Bike Light
+2025-08-20 17:16:09 [main] INFO  CartCheckoutTests - Added 2 products to the cart
+2025-08-20 17:16:09 [main] INFO  ProductPage - Cart badge count fetched: 2
+2025-08-20 17:16:09 [main] INFO  CartCheckoutTests - Cart badge count validated: 2
+2025-08-20 17:16:09 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:16:11 [main] INFO  CartCheckoutTests - Cart contains: [Sauce Labs Backpack, Sauce Labs Bike Light]
+2025-08-20 17:16:11 [main] INFO  CartPage - Cart contains 2 items
+2025-08-20 17:16:11 [main] INFO  CartPage - More than 2 products in cart, scrolling to checkout button...
+2025-08-20 17:16:13 [main] INFO  CartPage - Clicked on Checkout button
+2025-08-20 17:16:23 [main] INFO  CheckoutOverviewPage - Verified totals: ItemTotal=39.98, Tax=3.2, Total=43.18
+2025-08-20 17:16:23 [main] INFO  CartCheckoutTests - Asserting totals in test
+2025-08-20 17:16:24 [main] INFO  CartCheckoutTests - Order placed successfully
+2025-08-20 17:16:24 [main] INFO  CartCheckoutTests - Navigated back to product catalog
+2025-08-20 17:16:24 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:16:36 [main] WARN  CartPage - No cart items found, returning 0
+2025-08-20 17:16:36 [main] INFO  CartCheckoutTests - Cart validated empty after successful order
+2025-08-20 17:16:37 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:18:06 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:18:06 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:18:12 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:18:16 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:18:16 [main] INFO  CartCheckoutTests - Starting negative test: Checkout with empty cart
+2025-08-20 17:18:16 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:18:27 [main] WARN  CartPage - No cart items found, returning 0
+2025-08-20 17:18:27 [main] INFO  CartCheckoutTests - Cart is confirmed empty
+2025-08-20 17:18:38 [main] WARN  CartPage - No cart items found, returning 0
+2025-08-20 17:18:38 [main] WARN  CartPage - Less than 2 products in cart. Checkout button may already be visible.
+2025-08-20 17:18:49 [main] WARN  CartPage - No cart items found, returning 0
+2025-08-20 17:18:49 [main] WARN  CartCheckoutTests - Checkout attempted with empty cart - validation successful
+2025-08-20 17:18:49 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:44:02 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:44:02 [main] INFO  BaseTest - Setting up AppiumDriver for: LogoutTests
+2025-08-20 17:44:09 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:44:09 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:44:09 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:44:09 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:44:09 [main] INFO  LogoutTests - Starting logout test
+2025-08-20 17:44:15 [main] INFO  ProductPage - Visible product titles: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket]
+2025-08-20 17:44:15 [main] INFO  LogoutTests - Login successful, product list loaded
+2025-08-20 17:44:15 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:44:17 [main] INFO  LogoutTests - Clicked logout from menu
+2025-08-20 17:44:19 [main] INFO  LogoutTests - Logout successful, returned to login screen ✅
+2025-08-20 17:44:20 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:45:00 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:45:00 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:45:06 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:45:10 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:45:10 [main] INFO  CartCheckoutTests - Starting negative test: Checkout with missing user info
+2025-08-20 17:45:10 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:45:12 [main] INFO  CartCheckoutTests - Added one product to cart
+2025-08-20 17:45:12 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:45:13 [main] INFO  CartPage - Cart contains 1 items
+2025-08-20 17:45:13 [main] WARN  CartPage - Less than 2 products in cart. Checkout button may already be visible.
+2025-08-20 17:45:30 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:49:56 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:49:56 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:03 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:50:08 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:50:08 [main] INFO  CartCheckoutTests - Starting negative test: Checkout with missing user info
+2025-08-20 17:50:08 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:50:09 [main] INFO  CartCheckoutTests - Added one product to cart
+2025-08-20 17:50:09 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:50:11 [main] INFO  CartPage - Cart contains 1 items
+2025-08-20 17:50:11 [main] WARN  CartPage - Less than 2 products in cart. Checkout button may already be visible.
+2025-08-20 17:50:30 [main] WARN  CartCheckoutTests - Checkout failed as expected due to missing user info
+2025-08-20 17:50:32 [main] INFO  BaseTest - AppiumDriver quit successfully
+2025-08-20 17:50:37 [main] INFO  BaseTest - Config file loaded
+2025-08-20 17:50:37 [main] INFO  BaseTest - Setting up AppiumDriver for: CartCheckoutTests
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  BaseTest - ActionDriver initialized for thread: 1
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  ActionDriver - ActionDriver initialized
+2025-08-20 17:50:42 [main] INFO  CartCheckoutTests - Logging into the app with valid credentials
+2025-08-20 17:50:46 [main] INFO  CartCheckoutTests - Login successful, navigating to product catalog
+2025-08-20 17:50:47 [main] INFO  CartCheckoutTests - Starting negative test: Checkout with missing user info
+2025-08-20 17:50:47 [main] INFO  ProductPage - Adding product to cart: Sauce Labs Backpack
+2025-08-20 17:50:48 [main] INFO  CartCheckoutTests - Added one product to cart
+2025-08-20 17:50:48 [main] INFO  ProductPage - Opening cart page
+2025-08-20 17:50:50 [main] INFO  CartPage - Cart contains 1 items
+2025-08-20 17:50:50 [main] WARN  CartPage - Less than 2 products in cart. Checkout button may already be visible.
+2025-08-20 17:50:52 [main] WARN  CartCheckoutTests - Checkout failed as expected due to missing user info
+2025-08-20 17:50:52 [main] INFO  BaseTest - AppiumDriver quit successfully
