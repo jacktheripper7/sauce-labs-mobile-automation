@@ -3,7 +3,7 @@ on: push
 
 jobs:
   run-mobile-tests:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -17,18 +17,26 @@ jobs:
 
       - name: Install Node.js and Appium
         run: |
-          brew install node
+          sudo apt-get update
+          sudo apt-get install -y nodejs npm
           npm install -g appium
           appium -v
+
+      - name: Enable KVM (for better emulator performance)
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
 
       - name: Run Android Emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 29
-          arch: arm64-v8a
           target: google_apis
+          arch: x86_64
+          profile: Nexus 6
           disable-animations: true
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -accel off
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
           script: |
             echo "Waiting for emulator to boot..."
             adb wait-for-device
@@ -38,5 +46,7 @@ jobs:
             # Start Appium in the background
             appium &>/dev/null &
             sleep 10
+            # Verify Appium is running
+            curl -sSf http://localhost:4723/status || (echo "Appium failed to start" && exit 1)
             # Run tests
             mvn clean test
